@@ -1,0 +1,45 @@
+"""
+@Harsha CV + PY training Assgn-2
+Binary heap implementation
+"""
+
+# import numpy as np
+
+
+class BinaryHeap(object):
+    """
+    """
+
+    def __init__(self, max):
+        self.max = max
+
+    def display_heap_type(self):
+        print(self.max)
+
+     def insert(self, elem):
+        self.arr.append(elem)
+
+    def displayi_heap_tree(self):
+        pass
+
+    def delete_min(self):
+        if self.max:
+            print("Invalid Operation")
+
+    def delete_max(self):
+        if self.max is False:
+            print("Invalid Operation")
+
+    def sort(self):
+        pass
+
+    def find_min(self):
+        pass
+
+    def find_max(self):
+        pass
+
+
+if __name__ == "__main__":
+    bh = BinaryHeap(False)
+    bh.display_heap_type()
