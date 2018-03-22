@@ -44,4 +44,5 @@ while camera.isOpened():
 
     cv.imshow('tracking', image)
     k = cv.waitKey(1)
-if k == 27 : break # esc pressed
+    if k == 27 : 
+        break # esc pressed
